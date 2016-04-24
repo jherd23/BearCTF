@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BearCTF -- Home</title>
+		<link href='css/home.css' rel='stylesheet' type='text/css'>
+		<script src='javascript/home.js'></script>
+		<script>
+			inittasks.push(function(){
+				var login_button = document.getElementById('LOGIN_BUTTON');
+				if(login_button){
+					login_button.innerHTML = "<a href='login/'>Login</a>";
+					document.getElementById('REGISTER_BUTTON').innerHTML = "<a href='register/'>Register</a>";
+				}else{
+					document.getElementById('ACCOUNT_BUTTON').innerHTML = "<a href='account/'>Account</a>";
+					document.getElementById('LOGOUT_BUTTON').innerHTML = "<a href='#' onclick='logout(\"\")'>Logout</a>";
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="navBar">
+			<h1><a href=''>BearCTF</a></h1>
+			<h2><a href='problems/'>Problems</a></h2>
+			<h2><a href='teams/'>Leaderboard</a></h2>
+			<span id="loginer"></span>
+		</div>
+		<div id="main">
+			<div id="description_container" class="container top">
+				<div id="description_header" class="header">
+					<h3>&gt;About BearCTF</h3>
+				</div>
+				<div id="description_body" class="bod">
+					<p>BearCTF is a small CTF, or "Capture the Flag" competition created by high-school senior Jack Herd for his capstone project. It is intended for competitors with some computer science experience, but anyone is welcome to join!</p>
+					<p>Competitors form teams of 1-3, and answer problems available on the website. Problems consist of a "hacking" challenge where competitors must employ some form of skill, or exploit some vulnerability, to access a "flag". Once the flag is retrieved, it is submitted and the team is awarded points.</p>
+					<p>The competition begins on the 19th of April, 2016. Users can sign up and form teams before-hand, but cannot access problems. The competition will last for five days, until saturday, April 24.</p>
+					<p>Now that the contest is over, the writeups to the problems can be found at <a href="https://github.com/Soupdoop/BearCTFWriteups">this repository</a></p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

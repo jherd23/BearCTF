@@ -1,0 +1,9 @@
+{
+  "name":"Hashed Browns",
+  "sysname":"hashed_browns",
+  "pointValue":40,
+  "pointRequirement":40,
+  "body":"&gt;<a href=\"web/hashed_browns/\">This site</a> has GOT to be secure. I wrote an encryption function, and everything.",
+  "hint":"&gt;That custom_hash function might not be all that hard to figure out",
+  "path":"solutions/hashed_browns.php"
+}

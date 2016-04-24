@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BearCTF -- The Client Is Always Right</title>
+		<link rel="stylesheet" type="text/css" href="../../../css/home.css">
+		<style>
+			#login_v{
+				font-size:32px;
+			}
+		</style>
+		<script>
+			window.onload = function(){
+				guess();
+				setInterval(function(){guess()},200);
+			}
+
+			function guess(){
+				var guess = parseInt(Math.random() * 1000000000000000);
+				document.getElementById("login_v").innerHTML = "{" + guess + "} is " + (guess !== 132458100982469 ? " not " : "") + "the flag!";
+			}
+		</script>
+	</head>
+	<body>
+		<div id="navBar">
+			<h1>Automatic Flag Hacker</h1>
+		</div>
+		<div id="main">
+			<div id="notice_container" class="container top">
+				<div id="notice_header" class="header">
+					<h3>&gt;Notice</h3>
+				</div>
+				<div id="notice_body" class="bod">
+					<p id="login_v"></p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BearCTF -- Login</title>
+		<script src='../javascript/home.js'></script>
+		<script src="../javascript/login.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/home.css">
+	</head>
+	<body>
+		<div id="navBar">
+			<h1><a href='../'>BearCTF</a></h1>
+			<h2><a href='../problems/'>Problems</a></h2>
+			<h2><a href='../teams/'>Leaderboard</a></h2>
+			<span id="loginer"></span>
+		</div>
+		<div id="main">
+			<div id="login_container" class="container top">
+				<div id="login_header" class="header">
+					<h3>&gt;Login</h3>
+				</div>
+				<div id="login_body" class="bod">
+					<form id="login" onsubmit="login('../');return false" autocomplete="off">
+						<input type='text' id='username_l'>
+						<input type='password' id='password_l'>
+						<input type='submit' value='login!'>
+					</form>
+					<p id='login_response' style="display:none"></p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

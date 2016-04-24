@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BearCTF -- Register</title>
+		<script src='../javascript/home.js'></script>
+		<script src="../javascript/register.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/home.css">
+	</head>
+	<body>
+		<div id="navBar">
+			<h1><a href='../'>BearCTF</a></h1>
+			<h2><a href='../problems/'>Problems</a></h2>
+			<h2><a href='../teams/'>Leaderboard</a></h2>
+			<span id="loginer"></span>
+		</div>
+		<div id="main">
+			<div id="register_container" class="container top">
+				<div id="register_header" class="header">
+					<h3>&gt;Register</h3>
+				</div>
+				<div id="register_body" class="bod">
+					<form id="register" onsubmit="register_user('../');return false" autocomplete="off">
+						<input type='text' id='username_r'>
+						<input type='password' id='password_r'>
+						<input type='submit' value='Register!'>
+					</form>
+					<p id='register_response' style="display:none"></p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

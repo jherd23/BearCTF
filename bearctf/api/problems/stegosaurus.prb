@@ -1,0 +1,9 @@
+{
+  "name":"Stegosaurus",
+  "sysname":"stegosaurus",
+  "pointValue":10,
+  "pointRequirement":5,
+  "body":"&gt;What happened to my <a href=\"pictures/stegosaurus.png\">stegosaurus?</a>",
+  "hint":"&gt;Who says you have to open it like a picture?",
+  "path":"solutions/stegosaurus.php"
+}

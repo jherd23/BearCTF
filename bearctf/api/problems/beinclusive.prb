@@ -1,0 +1,9 @@
+{
+  "name":"Be Inclusive",
+  "sysname":"beinclusive",
+  "pointRequirement":10,
+  "pointValue":20,
+  "body":"&gt;<a href=\"web/be_inclusive\">This site</a> reads files. Can it read the flag?",
+  "hint":"&gt;The flag file is probably named \"flag\".",
+  "path":"solutions/beinclusive.php"
+}

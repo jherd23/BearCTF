@@ -1,0 +1,181 @@
+body{
+	background-color: #00000c;
+	-webkit-text-stroke: 0px!important;
+	-webkit-font-smoothing: none!important;
+}
+
+#navBar{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	background-color: #00000c;
+	border-bottom: 1px solid #9999a0;
+	z-index: 1000;
+}
+
+#navBar h1,h2{
+	font-family: 'DOS';
+	padding-bottom: 10px;
+	padding-left: 10px;
+	display: inline-block;
+	margin:0;
+	font-weight: normal;
+	color:#888890;
+}
+
+#navBar h1{
+	font-size: 48px;
+	padding-top: 10px;
+}
+
+#navBar h2{
+	font-size: 32px;
+	padding-top: 20px
+}
+
+#navBar h1 a,#navBar h2 a{
+	color: #888890;
+	transition:color .5s;
+}
+
+#navBar h1 a:hover,#navBar h2 a:hover{
+	color: #9999a0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.tester{
+	color: #888890;
+	font-family: 'DOS';
+	display: block;
+	position: absolute;
+	top: 80px;
+	left: 0;
+	width: 20px;
+	word-wrap:break-word;
+}
+
+p{
+	font-family: 'DOS';
+}
+
+#main{
+	position: relative;
+	margin-top:80px;
+	left:15%;
+	width: 70%;
+	margin-bottom:80px;
+	border: 1px solid #888890;
+	border-radius: 5px;
+	margin-bottom:100px;
+	font-family: 'DOS';
+}
+
+.container{
+	border-top: 2px solid #888890;
+}
+
+.container p{
+	color:#888890;
+}
+
+
+.bod{
+	border-top: 1px solid #888890;
+	padding-top:5px;
+	padding-left:20px;
+	padding-bottom:5px;
+}
+
+.bod p {
+	font-size:16px;
+	margin:0;
+	padding-top:2px;
+	padding-bottom: 2px;
+}
+
+.bod a {
+	color:#888890;
+	text-decoration: underline;
+	transition: color .5s;
+}
+
+.bod a:hover{
+	color:#a0a0b0;
+}
+
+.top{
+	border-top: 0px;
+}
+
+.hint {
+	display:none;
+	color:#888890;
+}
+
+input[type=text],button,input[type=submit],input[type=password]{
+	background-color: #00000c;
+	color:#888890;
+	font-family:'DOS';
+	font-size:16px;
+	padding: 2px 2px 2px 2px;
+	border:1px solid #9999a0;
+}
+
+.prob .bod input[type=submit],.prob .bod button{
+	width:96px;
+}
+
+.prob .bod input[type=text]{
+	width:calc(100% - 216px);
+}
+
+input[type=text]:focus,input[type=password]:focus{
+	color:#a0a0af;
+}
+
+h3{
+	font-size: 32px;
+	color: #9999a0;
+	margin: 0;
+	padding:2px;
+	font-weight: 100;
+}
+
+.inv{
+	display:none;
+}
+
+@font-face {
+	font-family:DOS;
+	src:url(DOS.ttf) format('truetype');
+}
+
+::selection{
+	background-color: #ffffff;
+	color:#00000c;
+}
+
+::-mozilla-selection{
+	background-color: #ffffff;
+	color:#00000c;
+}
+
+
+#footer {
+	position: fixed;
+	bottom:0;
+	left: 0;
+	width: 100%;
+	background-color: #00000c;
+	border-top: 1px solid #9999a0;
+	z-index: 1000;
+}
+
+#footer p {
+	color:#888890;
+	margin-left:10px;
+}

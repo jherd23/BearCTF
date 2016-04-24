@@ -1,0 +1,9 @@
+{
+  "name":"G(r)eek Gods",
+  "sysname":"greekgods",
+  "pointRequirement":25,
+  "pointValue":15,
+  "body":"&gt;<a href=\"web/greek_gods/\">This page</a> uses some fancy loading to get the flag. Something doesn't work quite right, though.",
+  "hint":"&gt;You might want to read up on a certain AJAX",
+  "path":"solutions/greekgods.php"
+}

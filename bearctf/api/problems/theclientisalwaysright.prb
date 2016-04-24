@@ -1,0 +1,9 @@
+{
+  "name":"The Client Is Always Right",
+  "sysname":"theclientisalwaysright",
+  "pointValue":10,
+  "pointRequirement":5,
+  "body":"&gt;<a href='web/client/'>Here.</a>",
+  "hint":"&gt;How does it determine if a password is correct?",
+  "path":"solutions/theclientisalwaysright.php"
+}

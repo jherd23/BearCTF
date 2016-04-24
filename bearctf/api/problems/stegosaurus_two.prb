@@ -1,0 +1,9 @@
+{
+  "name":"Stegosaurus II",
+  "sysname":"stegosaurus_two",
+  "pointRequirement":40,
+  "pointValue":40,
+  "body":"&gt;What's up with <a href=\"pictures/stegosaurus2.png\">this</a> stegosaurus?",
+  "hint":"&gt;I bet there's a pattern to the blue pixels.",
+  "path":"solutions/stegosaurus_two.php"
+}

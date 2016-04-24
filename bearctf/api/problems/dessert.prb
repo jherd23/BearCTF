@@ -1,0 +1,9 @@
+{
+  "name":"Dessert",
+  "sysname":"dessert",
+  "pointRequirement":10,
+  "pointValue":15,
+  "body":"&gt;The flag can be viewed <a href=\"web/dessert/\">here</a> if you have permission.",
+  "hint":"&gt;What determines if you have permission on this site? How can it be modified?",
+  "path":"solutions/dessert.php"
+}

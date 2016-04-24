@@ -1,0 +1,9 @@
+{
+  "name":"XOR",
+  "sysname":"xor",
+  "pointValue":20,
+  "pointRequirement":25,
+  "body":"&gt;<a href=\"encryption/xor.txt\">This file</a> has the flag in it, but it's been encrypted.",
+  "hint":"&gt;What is <a href=\"https://en.wikipedia.org/wiki/XOR_cipher\" target=\"_blank\">XOR</a>?",
+  "path":"solutions/xor.php"
+}

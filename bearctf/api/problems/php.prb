@@ -1,0 +1,9 @@
+{
+  "name":"PHP",
+  "sysname":"php",
+  "pointValue":30,
+  "pointRequirement":25,
+  "body":"&gt;Log in <a href=\"web/php\">here</a> to access the flag.",
+  "hint":"&gt;What are some php vulnerabilitiles?",
+  "path":"solutions/php.php"
+}

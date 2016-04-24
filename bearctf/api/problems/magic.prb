@@ -1,0 +1,9 @@
+{
+  "name":"Magic",
+  "sysname":"magic",
+  "pointValue":15,
+  "pointRequirement":10,
+  "body":"&gt;Something is wrong with <a href=\"pictures/flag.png\">this image</a>.",
+  "hint":"&gt;What makes a png file a png file?",
+  "path":"solutions/magic.php"
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BearCTF -- Hashed Browns</title>
+    <script>
+      function login_submit(){
+        var url = "login.php?u=" + document.getElementById('username_l').value + "&p=" + document.getElementById('password_l').value;
+        window.location = url;
+      }
+    </script>
+		<link rel="stylesheet" type="text/css" href="../../../css/home.css">
+	</head>
+	<body>
+		<div id="navBar">
+			<h1>Admin Login</h1>
+		</div>
+		<div id="main">
+      <div id="login_container" class="container top">
+        <div id="login_header" class="header">
+          <h3>&gt;Login</h3>
+        </div>
+        <div id="login_body" class="bod">
+          <form id="login" onsubmit="login_submit();return false" autocomplete="off">
+            <input type='text' id='username_l'>
+            <input type='password' id='password_l'>
+            <input type='submit' value='login!'>
+          </form>
+        </div>
+      </div>
+      <div id="php_source_container" class="container">
+        <div id="php_source_body" class="bod">
+          <p><a href="login.phps">Login.php Source</a></p>
+					<p><a href="hash.phps">Hash.php Source</a></p>
+        </div>
+      </div>
+		</div>
+	</body>
+</html>

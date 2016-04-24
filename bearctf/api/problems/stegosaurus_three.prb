@@ -1,0 +1,9 @@
+{
+  "name":"Stegosaurus III",
+  "sysname":"stegosaurus_three",
+  "pointValue":50,
+  "pointRequirement":60,
+  "body":"&gt;<a href=\"pictures/stegosaurus3.png\">This dinosaur</a> doesn't look too bad...",
+  "hint":"&gt;No hint this time. You're on your own.",
+  "path":"solutions/stegosaurus_three.php"
+}

@@ -1,0 +1,9 @@
+{
+  "name":"True Hacking",
+  "sysname":"truehacking",
+  "pointValue":5,
+  "pointRequirement":0,
+  "body":"&gt;I bet you can't hack into my <a href='web/truehacking/'>super secure site</a>.",
+  "hint":"&gt;Try some more \"inspection\"",
+  "path":"solutions/truehacking.php"
+}

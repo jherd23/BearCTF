@@ -1,0 +1,9 @@
+{
+  "name":"Julius!",
+  "sysname":"julius",
+  "pointValue":5,
+  "pointRequirement":0,
+  "body":"&gt;<a href=\"encryption/julius.txt\">julius.txt</a>",
+  "hint":"&gt;Try looking up some basic ciphers.",
+  "path":"solutions/julius.php"
+}

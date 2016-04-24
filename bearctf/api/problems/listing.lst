@@ -1,0 +1,77 @@
+{
+	"julius":{
+		"pointrequirement":0,
+		"problemname":"Julius!",
+		"problempath":"julius"
+	},
+	"truehacking":{
+		"pointrequirement":5,
+		"problemname":"True Hacking",
+		"problempath":"truehacking"
+	},
+	"theclientisalwaysright":{
+		"pointrequirement":5,
+		"problemName":"The Client Is Always Right",
+		"problempath":"theclientisalwaysright"
+	},
+	"stegosaurus":{
+		"pointrequirement":5,
+		"problemName":"Stegosaurus",
+		"problempath":"stegosaurus"
+	},
+	"magic":{
+		"pointrequirement":10,
+		"problemName":"Magic",
+		"problempath":"magic"
+	},
+	"dessert":{
+		"pointrequirement":10,
+		"problemName":"Dessert",
+		"problempath":"dessert"
+	},
+	"beinclusive":{
+		"pointrequirement":10,
+		"problemName":"Be Inclusive",
+		"problempath":"beinclusive"
+	},
+	"php":{
+		"pointrequirement":25,
+		"problemName":"PHP",
+		"problempath":"php"
+	},
+	"xor":{
+		"pointrequirement":25,
+		"problemName":"XOR",
+		"problempath":"xor"
+	},
+	"greekgods":{
+		"pointrequirement":25,
+		"problemName":"G(r)eek Gods",
+		"problempath":"greekgods"
+	},
+	"hideandseek":{
+		"pointrequirement":25,
+		"problemName":"Hide and Seek",
+		"problempath":"hideandseek"
+	},
+	"rsa":{
+		"pointrequirement":40,
+		"problemName":"Road Safety Authority",
+		"problempath":"rsa"
+	},
+	"hashed_browns":{
+		"pointrequirement":40,
+		"problemName":"Hashed Browns",
+		"problempath":"hashed_browns"
+	},
+	"stegosaurus_two":{
+		"pointrequirement":40,
+		"problemName":"Stegosaurus II",
+		"problempath":"stegosaurus_two"
+	},
+	"stegosaurus_three":{
+		"pointrequirement":60,
+		"problemName":"Stegosaurus III",
+		"problempath":"stegosaurus_three"
+	}
+}

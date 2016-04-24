@@ -1,0 +1,9 @@
+{
+  "name":"Road Safety Authority",
+  "sysname":"rsa",
+  "pointValue":30,
+  "pointRequirement":40,
+  "body":"&gt;We found <a href=\"encryption/RSA.txt\">this document</a> with some numbers on it. Can you make sense of it?",
+  "hint":"&gt;We might have messed up our acronym...",
+  "path":"solutions/rsa.php"
+}

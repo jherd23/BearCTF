@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BearCTF -- G(r)eek Gods</title>
+		<link rel="stylesheet" type="text/css" href="../../../css/home.css">
+		<script>
+			var showFlag = function(){
+				var xhr = new XMLHttpRequest();
+				var fd = new FormData();
+				fd.append('auth','true');
+				xhr.onreadystatechange = function(){
+					if(xhr.readyState === 4 && xhr.status === 200){
+							var flag = JSON.parse(xhr.responseText).flag;
+							alert('There was an error, I think.');
+					}
+				}
+				xhr.open('POST','flag.php');
+				xhr.send(fd);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="navBar">
+			<h1>G(r)eek Gods Flag Service</h1>
+		</div>
+		<div id="main">
+			<div id="notice_container" class="container top">
+				<div id="notice_header" class="header">
+					<h3>&gt;Notice</h3>
+				</div>
+				<div id="notice_body" class="bod">
+					<p>Click to view flag: <button onclick="showFlag()">Show Flag</button></p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

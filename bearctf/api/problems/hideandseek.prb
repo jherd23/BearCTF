@@ -1,0 +1,9 @@
+{
+  "name":"Hide and Seek",
+  "sysname":"hideandseek",
+  "pointValue":30,
+  "pointRequirement":25,
+  "body":"<style>#hideandseek_container{display:none}</style>Why were you snooping around the source of the problems page? Flag is {out_of_sight_out_of_mind}",
+  "hint":"Why are you reading this? You have the flag.",
+  "path":"solutions/hideandseek.php"
+}
