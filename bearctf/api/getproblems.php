@@ -31,7 +31,7 @@
 	$problemlist = json_decode(fread($problistfile,filesize('problems/listing.lst')),true);
 	fclose($problistfile);
 	foreach ($problemlist as $key => $value) {
-		# if($usersteam['points'] >= $value['pointrequirement']){
+		if($usersteam['points'] >= $value['pointrequirement']){
 			if(file_exists('problems/' . $value['problempath'] . '.prb')){
 				$newFile = fopen('problems/' . $value['problempath'] . '.prb', 'r');
 				if($ret !== '{"success":"yes","probs":['){
@@ -44,7 +44,7 @@
 				$ret .= json_encode($problemJSON);
 				fclose($newFile);
 			}
-		# }
+		}
 	}
 	$ret .= ']}';
 	echo $ret;
